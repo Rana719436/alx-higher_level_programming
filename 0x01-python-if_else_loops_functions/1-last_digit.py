@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+import random
+number = random.randint(-10000, 10000)
+X = number % 10
+print(f"X of {number} is {X}")
+if X > 5:
+    print("and is greater than 5")
+elif X == 0:
+    print("and is 0")
+else:
+    print("and is less than 6 and not 0")
